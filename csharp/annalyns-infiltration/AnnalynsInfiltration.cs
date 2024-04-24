@@ -2,6 +2,7 @@ using System;
 // seems like a simple challenge of understanding boolean operators
 static class QuestLogic
 {
+    // expression-bodied method
     public static bool CanFastAttack(bool knightIsAwake) => !knightIsAwake;
 
     public static bool CanSpy(bool knightIsAwake, bool archerIsAwake, bool prisonerIsAwake)
